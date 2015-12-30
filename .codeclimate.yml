@@ -4,6 +4,14 @@ engines:
     enabled: true
   radon:
     enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
 ratings:
   paths:
   - "**.py"
